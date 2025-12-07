@@ -8,7 +8,7 @@ export const metadata = {
   description: 'Track your subject attendance easily.',
 };
 
-export default function RootLayout{
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
