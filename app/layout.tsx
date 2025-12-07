@@ -1,4 +1,4 @@
-import './globals.css'; // This line tells Vercel where to find the CSS
+import './globals.css';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
