@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
+import { eachDayOfInterval, startOfMonth, endOfMonth, format, isToday, isSunday } from "date-fns";
 
 interface AttendanceRecord {
   date: string;
