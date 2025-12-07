@@ -1,5 +1,6 @@
+"use client";
 import { useState, useEffect } from "react";
-import { format, startOfMonth, endOfMonth, eachDayOfInterval, isToday, isSunday } from "date-fns";
+// ... the rest of your imports and code below
 import { Check, X, ChevronLeft, ChevronRight, Calendar, TrendingUp, Plus, Trash2, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
